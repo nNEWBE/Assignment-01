@@ -156,6 +156,7 @@ main .offer-banner {
   text-transform: uppercase;
   background: transparent;
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .image-02 {
@@ -211,6 +212,7 @@ main .offer-banner {
   background: #f00;
   border: none;
   margin-top: 48px;
+  cursor: pointer;
 }
 
 /* main section 04 */
@@ -398,38 +400,40 @@ main .offer-banner {
   margin-bottom: 48px;
 }
 
-.first-item-container, .second-item-container{
+.first-item-container,
+.second-item-container {
   transition: 400ms;
   cursor: pointer;
 }
 
-.first-item-container>img:hover, .second-item-container>img:hover{
-filter: grayscale(1);
-transform:scale(1.03) ;
+.first-item-container > img:hover,
+.second-item-container > img:hover {
+  filter: grayscale(1);
+  transform: scale(1.03);
 }
 
 .first-item-container .first-01,
 .first-02 {
   margin: 0 24px 24px 0;
-  width: 402px;
+  width: 390px;
   height: 450px;
 }
 
 .first-item-container .first-03 {
   margin: 0 0 24px 0;
-  width: 402px;
+  width: 390px;
   height: 450px;
 }
 
 .second-item-container .second-01,
 .second-02 {
   margin: 0 24px 0 0;
-  width: 402px;
+  width: 390px;
   height: 450px;
 }
 
 .second-item-container .second-03 {
-  width: 402px;
+  width: 390px;
   height: 450px;
 }
 
@@ -531,6 +535,7 @@ hr {
 
 .contact-icons img {
   margin: 38px 14px;
+  cursor: pointer;
 }
 
 .contact .contact-01,
@@ -580,3 +585,5 @@ hr {
 .footer-02 .down {
   padding-right: 130px;
 }
+
+/* The End */
