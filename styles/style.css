@@ -414,20 +414,20 @@ main .offer-banner {
 
 .first-item-container .first-01,
 .first-02 {
-  margin: 0 24px 24px 0;
+  margin: 0 20px 20px 0;
   width: 390px;
   height: 450px;
 }
 
 .first-item-container .first-03 {
-  margin: 0 0 24px 0;
+  margin: 0 0 20px 0;
   width: 390px;
   height: 450px;
 }
 
 .second-item-container .second-01,
 .second-02 {
-  margin: 0 24px 0 0;
+  margin: 0 20px 0 0;
   width: 390px;
   height: 450px;
 }
